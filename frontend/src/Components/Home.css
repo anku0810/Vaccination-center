@@ -1,0 +1,64 @@
+#header {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin-left:-30px;
+  }
+  
+  #header h1 {
+    margin: 0 0 10px 0;
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    text-align:left;
+    padding-top: 50px;
+  }
+  
+  #header .brand-name {
+    color: #36cee6;
+  }
+  
+  #header h3 {
+    color: #ea24bc;
+    font-size: 25px;
+    text-align: left;
+    font-weight: 600;
+  }
+  
+  #header .btn-get-started {
+    font-weight: 600;
+    font-size: 20px; /* Adjusted font size */
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 20px; /* Adjusted padding */
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #1e1f1f;
+    border: 5px solid #50ddf3;
+    text-decoration: none;
+    border-radius: 15px;
+    display: block;
+    margin: 300px;
+    margin-bottom: 50px;
+    margin-top:10px;
+    margin-left:-9px;
+  }
+  
+  #header .btn-get-started:hover {
+    background: #3fdb37;
+    color: #fff;
+  }
+  
+  
+  .header-img {
+    text-align: left;
+    margin-top: 60px;
+    padding-left: 70px;
+  }
+  
+  .img {
+    max-width: 100%;
+    height: auto;
+    
+  }
+  

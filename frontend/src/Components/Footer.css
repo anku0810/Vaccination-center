@@ -1,0 +1,83 @@
+.custom-footer-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #99e6f4;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.custom-footer-section {
+  flex: 1;
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.custom-footer-heading {
+  font-size: 23px;
+  color: #030303;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-family: 'poppins';
+
+
+}
+
+.custom-footer-description {
+  color: #151515;
+  font-size: 0.9em;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'poppins';
+}
+
+.custom-footer-icons a {
+  color: #c811e8;
+  margin-right: 10px;
+  padding: 5px;
+  font-size: 22px;
+
+}
+
+.custom-footer-icons a:hover{
+  background-color:#151515;
+}
+.custom-footer-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.custom-footer-links li {
+  margin-bottom: 5px;
+}
+
+.custom-footer-links a {
+  color: #e72525;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 17px;
+  font-family: 'poppins';
+  cursor: pointer;
+}
+
+.custom-footer-links a:hover,
+.custom-footer-info:hover{
+  background-color: rgb(20, 20, 20);
+}
+
+.custom-footer-info {
+  margin-bottom: 5px;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: 'poppins';
+  color: #e72525;
+  cursor: pointer;
+}
+
+.custom-copyright {
+  font-size: 1em;
+  color: #0c0c0c;
+  text-align: center;
+  font-family: 'poppins';
+  font-weight: 600;
+}

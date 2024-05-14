@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.main-title2 {
+  color:white;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-bottom: 10px; /* Increased space */
+  font-weight: 600;
+  margin-top: 40px;
+  font-size: 40px;
+  font-weight: 'poppins';
+}
+
+.login-wrapper2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; 
+}
+
+.login-container2 {
+  max-width: 400px; 
+  width: 500px; /* Increased width for better spacing */
+  padding: 50px; /* Increased padding for better spacing */
+  border: 8px solid #f9f5fa;
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 50px;
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1); /* Added box shadow for depth */
+}
+
+.login-container2 h2 {
+  margin-top: -30px; /* Adjusted space */
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.input-group2 {
+  margin-bottom: 30px; /* Increased space */
+  font-size: 17px;
+  font-weight: 600;
+  text-align: center; 
+}
+
+.input-field2 {
+  width: 100%;
+  padding: 12px; /* Increased padding for better spacing */
+  border: 1px solid #ccc; /* Changed border color for better visibility */
+  border-radius: 25px; /* Increased border radius for visual appeal */
+  font-size: 16px;
+  margin-top: 20px; /* Increased margin for better spacing */
+}
+
+.submit-button2,
+.clear-button2,
+.forgot-password2 {
+  width: 100%;
+  padding: 8px; /* Increased padding for better spacing */
+  border: none;
+  border-radius: 25px; /* Increased border radius for visual appeal */
+  cursor: pointer;
+  
+}
+
+.submit-button2 {
+  background-color: #020202;
+  color: #fff;
+  font-size: 16px;
+}
+
+.clear-button2 {
+  background-color: #0b0b0b;
+  color: #fff;
+  margin-top: 25px;
+  font-size: 16px;
+}
+
+.submit-button2:hover,
+.clear-button2:hover,
+.forgot-password2:hover {
+  background-color: #ef1695;
+}
+
+.forgot-password2 {
+  background-color: #020202;
+  color: #f7f1f1;
+  margin-top: 25px; /* Increased margin for better spacing */
+  font-size: 12px; /* Increased font size for better visibility */
+}
+
+.error2 {
+  color: red;
+  margin-top: 15px; /* Increased margin for better spacing */
+}
+
+.password-input2 {
+  position: relative;
+}
+
+.eye-button2 {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px; /* Increased font size for better visibility */
+  padding: 0;
+  position: absolute;
+  right: 15px;
+  top: 65%;
+  transform: translateY(-50%);
+}
+
+.login-bg{
+  background: linear-gradient(to right, #1e5799 0%, #2ce0bf 19%, #76dd2c 40%, #dba62b 60%, #e02cbf 83%, #1e5799 100%);
+  background-size: 10000px 100%;
+  animation: bg 15s linear infinite;
+}
+
+@keyframes bg {
+  0% {
+    background-position-x: 0;
+  }
+  
+  100% {
+    background-position-x: 10000px;
+  }
+}
